@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="./imagenes/logo.png" alt="logo" class="logo">
+        <h1>GRUPO MUNDO VIAJES</h1>
+        <div>
+            <nav class="nav-head">
+                <a href="">Historia</a>
+                <a href="">Quienes somos</a>
+                <a href="">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+
+
+        <div class="caja1">
+            <input type="user" value="nombre de usuario" class="user"> 
+            <input type="password" value="password" class="contra">
+            <input type="submit" value="ingresar" class="ingresar"> 
+            </div>
+        <div class="caja">
+            <h2 class="tituCaja">Cotice su Viaje</h2>
+            <form class="formularioUsuarios">
+                <div class=inputContainer>
+                    <label for="origen"> Ingrese su lugar de origen</label>
+                    <Input type="text" placeholder="Ingrese su lugar de origen" id="origen" name="origen"></Input>
+                </div>
+                <div class=inputContainer>
+                    <label for="destino"> Seleccione su lugar de destino</label>
+                    <select name="destino" id="destino"> 
+                        <option value="Salta">Salta</option>
+                        <option value="Mendoza">Mendoza</option>
+                        <option value="Bariloche">Bariloche</option>
+                        <option value="Misiones">Misiones</option>
+                        <option value="SanLuis">San Luis</option>
+                    <select> 
+
+                </div>
+                <div class=inputContainer>
+                    <label for="fecha"> Elija una fecha de salida</label>
+                    <select name="fecha" id="fecha">
+                        <option value="30/4/2023">30/4/2023</option>
+                        <option value="5/5/2023">5/5/2023</option>
+                        <option value="15/5/2023">10/5/2023</option>
+                        <option value="20/5/2023">20/5/2323</option>
+                    </select>
+                </div>
+                <div class=inputContainer>
+                    <label for="pasajeros"> Indique cantidad de pasajeros</label>
+                    <input type="number" placeholder="Indique cantidad de pasajeros" id="pasajeros" name="pasajeros">
+                </div>
+                <div class=bottonEnviar>
+                    <input type="submit" value="Enviar">
+                </div>
+               
+            </form>
+            <div id="tarjetaUsuarios"></div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footerNos">
+                    <h3>Sobre nosotros</h3>
+                    <ul>
+                        <li>DURAN Andrea</li>
+                        <li>GARRO Marcelo</li>
+                        <li>LEIVA Mariano</li>
+                        <li>RODRIGUEZ Paula</li>
+                        <li>VARELA Anabel</li>
+                        <li>ZAVALA Pablo</li>
+                    </ul>
+                </div>
+                <div class="footerCont">
+                        <h3>Contactanos</h3>
+                        <ul>
+                            <h4 class="sTitle">Nuestros telefonos</h4> 
+                                <li class="sang">+54 261 738 4567</li>
+                                <li class="sang">+54 262 764 9836</li>
+                            <h4 class="sTitle">Via email</h4>
+                                    <label for="email"></label>
+                                    <input type="email" id="email" placeholder="ejemplo@ejemplo.com">
+                                    <input type="submit" value="Enviar">
+                        </ul>
+                </div>
+                <div class="footerLink">
+                    <h3>Links externos</h3>
+                    <ul>
+                        <li><a href="https://www.assistcard.com/ar" target="_blank">Seguros</a></li>
+                        <li><a href="https://www.hertz.com.ar/" target="_blank">Alquileres de autos</a></li>
+                        <li><a href="https://latiendadelviajero.com.ar/" target="_blank">Todo para el viajero</a></li>
+                    </ul>
+                </div>
+                <div class="socialLink">
+                    <h3>Siguenos por nuestras redes</h3>
+                  <div class="social-link">
+                    <a href="https://facebook.com/" class="fab fa-facebook-f" target="_blank"></a>
+                    <a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a>
+                    <a href="https://twitter.com/?lang=es" class="fab fa-twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/login/es" class="fab fa-linkedin" target="_blank"></a>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script..js"></script>
+</body>
+</html>
+
